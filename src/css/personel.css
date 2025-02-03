@@ -1,0 +1,186 @@
+body {
+    font-family: "Archivo", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    color: #676c71;
+    overflow-x: hidden;
+}
+
+a {
+    outline: medium none !important;
+    color: #00ace5;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:focus {
+    color: #022d62;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #022d62;
+    text-decoration: none !important;
+}
+
+a.text-dark:focus {
+    color: #00ace5 !important;
+}
+
+a.text-dark:hover {
+    color: #00ace5 !important;
+}
+
+input {
+    outline: medium none !important;
+    color: #00ace5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Archivo", sans-serif;
+    font-weight: normal;
+    color: #022d62;
+    margin: 0px 0px 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+.h1 a,
+.h2 a,
+.h3 a,
+.h4 a,
+.h5 a,
+.h6 a {
+    color: inherit;
+}
+
+iframe {
+    width: 100%;
+}
+
+label {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 60px;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+p {
+    line-height: 1.8;
+}
+
+*::-moz-selection {
+    background: #00ace5;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #00ace5;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #00ace5;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+.card-hover {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    /* Kartın arka plan rengi değişir */
+}
+
+.card-hover .card-title {
+    color: #007bff;
+    text-align: center;
+    /* Başlık rengi değişir */
+}
+
+.card-hover .card-text {
+    color: #6c757d;
+    /* Metin rengi değişir */
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 150px;
+    /* Genişliği küçült */
+    height: auto;
+
+}
+
+
+
+a.text-decoration-none {
+    color: inherit;
+    /* Link rengini kartın rengiyle aynı yapar */
+}
+
+a.text-decoration-none:hover {
+    text-decoration: none;
+    /* Linkin alt çizgisini kaldırır */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    /* Arka plan rengi */
+    text-align: center;
+}
