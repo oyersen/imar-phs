@@ -9,7 +9,7 @@ function calculateRowsPerPage() {
 }
 
 function loadExcel() {
-    fetch('src/data/personel_listesi.xlsx')
+    fetch('./src/data/personel_listesi.xlsx')
         .then(response => response.arrayBuffer())
         .then(data => {
             const workbook = XLSX.read(data, { type: 'array' });
